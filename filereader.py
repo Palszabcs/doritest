@@ -28,3 +28,4 @@ class FileReader:
 
     def get_temperatures(self):
         return sorted(self.temperatures)
+    
