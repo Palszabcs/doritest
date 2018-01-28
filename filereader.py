@@ -27,4 +27,4 @@ class FileReader:
         return split_temperatures
 
     def get_temperatures(self):
-        return self.temperatures
+        return sorted(self.temperatures)
